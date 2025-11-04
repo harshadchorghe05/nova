@@ -19,7 +19,7 @@
 .future{
     display: none;
 }
-.hide_future{
+.hide3{
     display: inline;
 }
 
@@ -935,7 +935,7 @@
         margin: 0px;
         padding: 0px;
     }
-    .hide_future{
+    .hide3{
         display: none;
     }
     .future{
@@ -982,7 +982,7 @@
     .button11{
         margin: 0px;
         margin-top: 550px;
-        margin-left: 110px;
+        margin-left: 100px;
     }
     .button12{
        margin-top: 550px;
@@ -1023,7 +1023,7 @@
         height: 220px;
     }
     .Services{
-        height: 1100px;
+        height: 1200px;
     }
     .box21{
          margin: 0px;
@@ -1104,7 +1104,7 @@
         height: 1000px;
         display:inline;
     }
-    .hide_future{
+    .hide3{
         display: none;
     }
     .price{
