@@ -156,9 +156,8 @@
     height: 700px;
     width: 100%;
     float: left;
-    /* background-image: url(pngtree-design-a-web-banner-or-texture-background-with-a-blue-watercolor-theme-vector-png-image_45286812.jpg); */
+    background-image: url(pngtree-design-a-web-banner-or-texture-background-with-a-blue-watercolor-theme-vector-png-image_45286812.jpg);
     background-repeat: no-repeat;
-    background-color:green;
     background-size: 100% 100%;
 }
 
