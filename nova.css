@@ -17,11 +17,12 @@
     display: none;
 }
 .future{
-    display: none;
-}
-.hide3{
     display: inline;
 }
+.future_mob{
+    display: none;
+}
+
 
 .hover{
     width:70px; 
@@ -323,6 +324,12 @@
 }
 
 .future{
+    height: 750px;
+    width: 100%;
+    float: left;
+    background-color: rgba(238, 236, 236, 0.726);
+}
+.future_mob{
     height: 750px;
     width: 100%;
     float: left;
@@ -935,9 +942,6 @@
        width: 100%;
        margin: 0px;
        padding: 0px;
-       padding-left: 20px;
-       padding-right: 20px;
-       box-sizing: border-box;
     }
     .design{
         width: 90%;
@@ -946,7 +950,7 @@
         margin-left: 5%;
         &:hover{
         box-shadow: 0px 0px 1px 1px rgb(0, 204, 255);
-        margin: 40px 0px 0px 20px;
+        margin: 40px 0px 0px 5%;
         border-bottom: 6px solid rgb(0, 204, 255);
         }
     }
@@ -957,20 +961,20 @@
         margin-left: 5%;
         &:hover{
         box-shadow: 0px 0px 1px 1px rgb(0, 204, 255);
-        margin: 40px 0px 0px 20px;
+        margin: 40px 0px 0px 5%;
         border-bottom: 6px solid rgb(0, 204, 255);
         }
     }
-    .future{
+    .future_mob{
         height: 1150px;
         width: 100%;
         margin: 0px;
         padding: 0px;
     }
-    .hide3{
+    .future_designing{
         display: none;
     }
-    .future{
+    .future_mob{
         display: inline;
     }
     .Pricing{
@@ -1026,9 +1030,6 @@
         height: 230px;
         margin: 0px;
         padding: 0px;
-        padding-left: 20px;
-        padding-right: 20px;
-        box-sizing: border-box;
         width: 100%;
     }
     .email{
@@ -1072,7 +1073,7 @@
         height: 220px;
     }
     .Services{
-        height: 960px;
+        height: 1200px;
     }
     .box21{
          margin: 0px;
@@ -1084,23 +1085,31 @@
     }
     .box22{
         height: 280px;
+        width: 100%;
        margin: 0px;
-       margin-top: 15px;
-       margin-left: 30px; 
+       margin-top: 10px;
+       padding-left: 20px;
+       box-sizing: border-box;
     }
     .box23{
         height: 250px;
-        margin: 0px;
-       margin-left: 50px; 
+        width: 100%;
+       margin: 0px;
+       margin-top: 10px;
+       padding-left: 20px;
+       box-sizing: border-box;
     }
     .box24{
-        margin: 0px;
-        margin-left: 30px;
+        height: 250px;
+       margin: 0px;
+       margin-top: 10px;
+       padding-left: 20px;
+       box-sizing: border-box;
     }
     .box25{
         margin: 0px;
         padding: 0px;
-        margin-top: 3px;
+        margin-top: 10px;
         width: 100%;
     }
 }
@@ -1149,11 +1158,11 @@
         border-bottom: 6px solid rgb(0, 204, 255);
         }
     }
-    .future{
+    .future_mob{
         height: 1000px;
         display:inline;
     }
-    .hide3{
+    .future_designing{
         display: none;
     }
     .price{
@@ -1212,7 +1221,7 @@
         margin-top: 40px;
     }
     .Services{
-        height: 820px;
+        height: 800px;
     }
     .box21{
         margin-left: 50px;
