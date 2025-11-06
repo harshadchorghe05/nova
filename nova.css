@@ -935,6 +935,9 @@
        width: 100%;
        margin: 0px;
        padding: 0px;
+       padding-left: 20px;
+       padding-right: 20px;
+       box-sizing: border-box;
     }
     .design{
         width: 90%;
@@ -1023,6 +1026,9 @@
         height: 230px;
         margin: 0px;
         padding: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
         width: 100%;
     }
     .email{
@@ -1066,7 +1072,7 @@
         height: 220px;
     }
     .Services{
-        height: 940px;
+        height: 960px;
     }
     .box21{
          margin: 0px;
