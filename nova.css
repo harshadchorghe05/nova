@@ -156,7 +156,7 @@
     height: 700px;
     width: 100%;
     float: left;
-    background-image: url(pngtree-design-a-web-banner-or-texture-background-with-a-blue-watercolor-theme-vector-png-image_45286812.jpg);
+    background-image: url(../Nova_website/images/pngtree-design-a-web-banner-or-texture-background-with-a-blue-watercolor-theme-vector-png-image_45286812.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -255,6 +255,7 @@
     height: 350px;
     width: 350px;
     background-color: rgb(252, 248, 248);
+    /* background-color: red; */
     float: left;
     margin-left: 100px;
     margin-top: 20px;
@@ -295,6 +296,7 @@
     height: 350px;
     width: 350px;
     background-color: rgb(252, 248, 248);
+    /* background-color: red; */
     float: left;
     margin-left: 50px;
     margin-top: 20px;
@@ -606,8 +608,33 @@
     margin-top: 50px;
     margin-left: 100px;
 }
-.email1{
-    margin-left: 30px;
+.input_box1{
+    height: 60px;
+    width: 47%;
+    float: left;
+    /* background-color: lawngreen; */
+}
+.input_box2{
+    height: 60px;
+    width: 47%;
+    float: left;
+    margin-left: 43px;
+    /* background-color: lawngreen; */
+}
+.input_box3{
+    height: 60px;
+    width: 47%;
+    float: left;
+    margin-top: 30px;
+    /* background-color: lawngreen; */
+}
+.input_box4{
+    height: 60px;
+    width: 47%;
+    float: left;
+    margin-top: 30px;
+    margin-left: 43px;
+    /* background-color: lawngreen; */
 }
 .contact{
     height: 550px;
@@ -910,9 +937,10 @@
        padding: 0px;
     }
     .design{
+        width: 90%;
         margin: 0px;
         margin-top: 40px;
-        margin-left: 20px;
+        margin-left: 5%;
         &:hover{
         box-shadow: 0px 0px 1px 1px rgb(0, 204, 255);
         margin: 40px 0px 0px 20px;
@@ -920,9 +948,10 @@
         }
     }
     .design1{
+        width: 90%;
         margin: 0px;
         margin-top: 40px;
-        margin-left: 20px;
+        margin-left: 5%;
         &:hover{
         box-shadow: 0px 0px 1px 1px rgb(0, 204, 255);
         margin: 40px 0px 0px 20px;
@@ -982,7 +1011,7 @@
     .button11{
         margin: 0px;
         margin-top: 550px;
-        margin-left: 100px;
+        margin-left: 150px;
     }
     .button12{
        margin-top: 550px;
@@ -997,6 +1026,7 @@
         width: 100%;
     }
     .email{
+        height: 500px;
         margin: 0px;
         width: 100%;
         padding: 0px;
@@ -1004,13 +1034,25 @@
         padding-right: 20px;
         box-sizing: border-box;
     }
-    .email1{
-        margin: 0px;
-    }
-    .email input{
-        margin: 0px;
-        margin-top: 20px;
-    }
+   .input_box1{
+     margin: 0px;
+     width: 100%;
+   }
+   .input_box2{
+     margin: 0px;
+     width: 100%;
+     margin-top: 20px;
+   }
+   .input_box3{
+     margin: 0px;
+     width: 100%;
+     margin-top: 20px;
+   }
+   .input_box4{
+     margin: 0px;
+     width: 100%;
+     margin-top: 20px;
+   }
     .contact{
         margin: 0px;
         margin-left: 25px;
@@ -1018,12 +1060,13 @@
     }
     .submit_button{
         width: 145px;
+        margin-top: 35px;
     }
     .logos{
         height: 220px;
     }
     .Services{
-        height: 1200px;
+        height: 940px;
     }
     .box21{
          margin: 0px;
